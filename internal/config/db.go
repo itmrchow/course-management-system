@@ -11,7 +11,8 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 
-	"github.com/itmrchow/course-management-system/internal/domain/teacher/entity"
+	courseEntity "github.com/itmrchow/course-management-system/internal/domain/course/entity"
+	teacherEntity "github.com/itmrchow/course-management-system/internal/domain/teacher/entity"
 )
 
 // NewPostgresDB 初始化 postgres db.
@@ -71,10 +72,21 @@ func NewDB(ctx context.Context, dialector gorm.Dialector, opts ...gorm.Option) (
 	sqlDB.SetConnMaxLifetime(time.Minute * 30)
 	sqlDB.SetConnMaxIdleTime(15 * time.Minute)
 
+	// teacher entities
+	teacherEntities := []interface{}{
+		&teacherEntity.Teacher{},
+	}
+
+	// course entities
+	courseEntities := []interface{}{
+		&courseEntity.Course{},
+	}
+
+	entities := append(teacherEntities, courseEntities...)
+
 	// Auto migrate all entities
 	err = db.AutoMigrate(
-		// Teacher
-		&entity.Teacher{},
+		entities...,
 	)
 	if err != nil {
 		return nil, fmt.Errorf("failed to auto migrate: %w", err)
