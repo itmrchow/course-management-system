@@ -1,0 +1,99 @@
+- id: 1
+  name: John Doe
+  email: john.doe@example.com
+  phone: "1234567890"
+  bio: I am a teacher
+  status: 0
+  user_id: 1
+  created_at: 2021-01-01 00:00:00
+  updated_at: 2021-01-01 00:00:00
+
+- id: 2
+  name: John Doe 2
+  email: john.doe2@example.com
+  phone: "1234500000"
+  bio: I am a teacher 2
+  status: 1
+  user_id: 2
+  created_at: 2021-01-01 00:00:01
+  updated_at: 2021-01-01 00:00:01
+
+- id: 3
+  name: Sarah Johnson
+  email: sarah.johnson@example.com
+  phone: "2345678901"
+  bio: Experienced mathematics teacher with 8 years of teaching experience
+  status: 1
+  user_id: 3
+  created_at: 2021-01-01 00:00:02
+  updated_at: 2021-01-01 00:00:02
+
+- id: 4
+  name: Michael Chen
+  email: michael.chen@example.com
+  phone: "3456789012"
+  bio: Physics professor specializing in quantum mechanics
+  status: 0
+  user_id: 4
+  created_at: 2021-01-01 00:00:03
+  updated_at: 2021-01-01 00:00:03
+
+- id: 5
+  name: Emily Davis
+  email: emily.davis@example.com
+  phone: "4567890123"
+  bio: English literature teacher passionate about classic novels
+  status: 1
+  user_id: 5
+  created_at: 2021-01-01 00:00:04
+  updated_at: 2021-01-01 00:00:04
+
+- id: 6
+  name: David Wilson
+  email: david.wilson@example.com
+  phone: "5678901234"
+  bio: Computer science instructor with expertise in algorithms
+  status: 1
+  user_id: 6
+  created_at: 2021-01-01 00:00:05
+  updated_at: 2021-01-01 00:00:05
+
+- id: 7
+  name: Lisa Brown
+  email: lisa.brown@example.com
+  phone: "6789012345"
+  bio: Chemistry teacher with research background in organic chemistry
+  status: 0
+  user_id: 7
+  created_at: 2021-01-01 00:00:06
+  updated_at: 2021-01-01 00:00:06
+
+- id: 8
+  name: Robert Taylor
+  email: robert.taylor@example.com
+  phone: "7890123456"
+  bio: History professor specializing in ancient civilizations
+  status: 4
+  user_id: 8
+  created_at: 2021-01-01 00:00:07
+  updated_at: 2021-01-01 00:00:07
+
+- id: 9
+  name: Jennifer Lee
+  email: jennifer.lee@example.com
+  phone: "8901234567"
+  bio: Art teacher with focus on contemporary painting techniques
+  status: 1
+  user_id: 9
+  created_at: 2021-01-01 00:00:08
+  updated_at: 2021-01-01 00:00:08
+
+- id: 10
+  name: Thomas Anderson
+  email: thomas.anderson@example.com
+  phone: "9012345678"
+  bio: Music instructor teaching classical piano and composition
+  status: 2
+  user_id: 10
+  created_at: 2021-01-01 00:00:09
+  updated_at: 2021-01-01 00:00:09

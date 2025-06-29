@@ -1,0 +1,7 @@
+# db
+POSTGRES_HOST: 
+POSTGRES_PORT:
+POSTGRES_USER: 
+POSTGRES_PASSWORD: 
+POSTGRES_DBNAME: course_db
+POSTGRES_SSLMODE: disable # disable, prefer, require, verify-ca, verify-full
